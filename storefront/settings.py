@@ -178,5 +178,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'localhost'
 EMAIl_HOST_USER = ''
 EMAIl_HOST_PASSWORD = ''
-EMAIl_PORT = 2525
+EMAIL_PORT = 2525
 DEFAULT_FROM_EMAIL = 'from@moshbuy.com'
+ADMINS = [
+    ('Andrew', 'admin@gmail.com')
+]
