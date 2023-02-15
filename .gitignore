@@ -2,4 +2,5 @@
 *.bak
 *.dat
 *.dir
+*.vscode
 __pycache__
