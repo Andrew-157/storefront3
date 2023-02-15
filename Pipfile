@@ -16,6 +16,8 @@ pillow = "*"
 django-cors-headers = "*"
 django-templated-mail = "*"
 redis = "*"
+celery = "*"
+eventlet = "*"
 
 [dev-packages]
 autopep8 = "*"
