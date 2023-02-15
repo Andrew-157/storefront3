@@ -3,4 +3,5 @@
 *.dat
 *.dir
 *.vscode
+*.pytest_cache
 __pycache__
