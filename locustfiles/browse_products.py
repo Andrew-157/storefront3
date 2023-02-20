@@ -8,7 +8,7 @@ class WebsiteUser(HttpUser):
     @task(2)
     def view_products(self):
         collection_id = randint(2, 6)
-        self.clients.get(
+        self.client.get(
             f'/store/products/?collection_id={collection_id}',
             name='/store/products'
         )
