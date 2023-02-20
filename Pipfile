@@ -20,6 +20,7 @@ celery = "*"
 eventlet = "*"
 flower = "*"
 django-redis = "*"
+whitenoise = "*"
 
 [dev-packages]
 autopep8 = "*"
